@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>:: Figastik Figurines ::</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="col-lg-6 col-md-5 col-sm-4 hidden-xs">Vente de figurines en ligne</h1>
+        <a class="col-lg-2" href="inscription.html"><i class="fa fa-pencil" aria-hidden="true"></i> Inscription</a>
+        <a class="col-lg-2" href="connexion.html"><i class="fa fa-user" aria-hidden="true"></i> Connexion</a>
+        <a class="col-lg-2" href="panier.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Panier</a>
+    </div>
+</header>   
+
+<div class="menu">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="img-responsive navbar-brand" href="index.html"><img src="images/logo-figastik.png" alt="Logo Figastik"/></a>
+            </div>
+            <div id="navbar3" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Produits<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="index-produit.html">Figurines Disney</a></li>
+                            <li><a href="index-produit.html">Figurines Star Wars</a></li>
+                            <li><a href="index-produit.html">Figurines Seigneur des Anneaux</a></li>
+                            <li><a href="index-produit.html">Figurines Mangas</a></li>
+                            <li><a href="index-produit.html">Figurines Super Héros</a></li>
+                            <li><a href="index-produit.html">Figurines Séries TV</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="panier">
+    <div class="container">
+        <h2 class="title">Mon panier</h2>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <table class="table">
+                
+                    <tr>
+                        <th class="text-center" style="width:30%">Produit</th>
+                        <th class="text-center" style="width:10%">Prix</th>
+                        <th class="text-center" style="width:10%">Quantité</th>
+                        <th style="width:10%" class="text-center">Sous-total</th>
+                        <th colspan="2"  style="width:20%"></th>
+                    </tr>
+                
+                    <tr>
+                        <td data-th='Produit'><div class="col-sm-10"><p>Titre du produit</p></div></td>
+                        <td data-th="Prix">15 €</td>
+                        <td data-th="Quantité">2 </td>
+                        <td data-th="Sous-total" class="text-center">30 €</td>
+                        <td data-th="Quantité"><input type="number" class="form-control text-center" value="1"></td>
+                        <td data-th=""><a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a></td>
+                    </tr>
+                
+                    <tr class="visible-xs">
+                        <td colspan="5" class="text-center"><strong>Total 30 €</strong><br/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="hidden-xs text-center">
+                            <strong>Total 30 € TTC</strong><br/>
+                        </td>
+                    </tr>
+                
+            </table>
+            <a href="#" class="pull-right button">Aller au paiement</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <ul class="inline">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index-produit.html">Nos produits</a></li>
+            <li><a href="presentation.html">Présentation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <hr/>
+        <div class="copyrightText">
+            <p class="inline">  Antoine Peyrin &copy; 2017 copyright - Figastik Figurines</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
